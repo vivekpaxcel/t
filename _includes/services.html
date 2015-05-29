@@ -1,0 +1,30 @@
+<!-- Services Section -->
+<section id="services" class="outter-section   section-bg1">
+	<div class="container">
+    	<div class="row">
+        	<h1 class="text-center">
+            	Our Services <br>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small>            
+            </h1>
+            
+            {% for service in site.data.service.service-detail %}
+            	<div class="col-md-4 text-center service-grid">
+                	<div class="service-icon">
+                    	<i class="fa fa-{{service.icon}}"></i>
+                    </div>
+                    <h4>{{service.title}}</h4>
+                    <p>{{service.description}}</p>
+                    <div class="readmore">
+                    	<a href="{{service.url}}">
+                        	<i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>
+                        </a>
+                    </div>
+                </div> 
+                {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+                {% if modulo == '0' %}                
+                	<div class="clearfix"></div>                   
+                {% endif %}                
+            {% endfor %}        	
+        </div>
+    </div>	
+</section>

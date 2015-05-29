@@ -1,0 +1,35 @@
+<div class="bs-example">
+  <div id="carousel-banner" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel" >     
+ 
+    <!--  Carousel items-->
+    <div class="carousel-inner banner-container"> 
+    	{% for banner in site.data.banner.banner-slider %}
+      		<div class="item {% if forloop.index  == 1 %} active {% endif %} "> 
+      			<img src="{{site.baseurl}}/images/{{banner.path}}" alt="{{banner.alt }}" class="img-responsive">
+                	
+               <div class="hero">
+                <hgroup>
+                    <h1>{{banner.title}}</h1>        
+                    <p>{{banner.caption}}</p>
+                </hgroup>
+               
+              </div>
+                 <div class="overlay"></div>
+      		</div>
+      {% endfor %} 
+    </div>
+     <!-- Carousel indicators -->
+     <ol class="carousel-indicators">
+          {% for case in site.data.casestudy %}
+          <li data-target="#carousel-banner" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index  == 1 %} active {% endif %}"></li>
+          {% endfor %}
+     </ol>
+    
+<!-- comment Carousel nav -->
+    <!--<a class="carousel-control left" href="#carousel-banner" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
+    <a class="carousel-control right" href="#carousel-banner" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>--> </div>
+</div>
+
+
+
+

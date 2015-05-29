@@ -1,0 +1,32 @@
+<!-- Services Section -->
+<section id="casestudy" class="outter-section">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center"> Case Studies <br>
+        <small>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> </h1>
+      <div class="carousel slide" id="caseSlide">
+        <div class="carousel-inner case-inner"> {% for case in site.data.casestudy %}
+          <div class="item {% if forloop.index  == 1 %} active {% endif %}" >
+            <div class="col-lg-4 col-xs-12 col-md-4 col-sm-4 case-grid">
+              <div class="case-desc"> 
+              		<img src="{{site.baseurl}}/images/{{case.img-path}}" alt="{{case.title}}" class="img-responsive">
+                    <div class="detail">
+                      <p>{{case.description}}</p>
+                      <a href="{{case.url}}" class="btn btn-danger">Read more</a> 
+                    </div>
+              </div>
+              <h4>{{case.title}}</h4>
+            </div>
+          </div>
+          {% endfor %} </div>
+        <ol class="carousel-indicators">
+          <!--{% for case in site.data.casestudy %}
+          <li data-target="#caseSlide" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index  == 1 %} active {% endif %}"></li>
+          {% endfor %}-->
+          <a class="left carousel-control" href="#caseSlide" data-slide="prev"><i class="fa fa-caret-left"></i></a> <a class="right carousel-control" href="#caseSlide" data-slide="next"><i class="fa fa-caret-right"></i></a>
+        </ol>
+         
+     </div>
+    </div>
+  </div>
+</section>

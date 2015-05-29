@@ -1,0 +1,63 @@
+<!-- Team Contact -->
+<section id="contact" class="outter-section">
+	<div class="container">
+    	<div class="row">
+        	<h1 class="text-center">
+            	Contact Us <br>
+                <small>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small>            
+            </h1>
+            
+            <div class="col-md-6">
+            	<h3>Send email </h3>
+            	<form>
+                	<div class="form-group">
+                    	<input type="text" class="form-control" placeholder="Your Name *" id="name" name="name" required >
+                    </div>
+                    <div class="form-group">
+                    	<input type="email" class="form-control" placeholder="Your Email *" id="email" name="email" required">
+                    </div>
+                    <div class="form-group">
+                    	<input type="tel" class="form-control" placeholder="Your Phone *" id="phone">
+                    </div>
+                    <div class="form-group">
+                    	<textarea class="form-control" placeholder="Your Message *" id="message" required" name></textarea>
+                    </div>
+					<div class="form-group">
+                    	<button type="submit" class="btn btn-lg btn-contact">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+            	<h3>Contact Information</h3>
+                <p>Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                
+                <ul class="contact-info">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <div>Bolean, 959 Road, Avenue Street, <br>Buston, USA</div>
+                        </li>
+                        <li>
+                        	<i class="fa fa-phone"></i>
+                            <div class="tel">Tel: 00965 - 3426 - 3211223</div>
+                            <div class="fax">Fax: 00965 - 3426 - 3211223</div>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <div><a href="mailto:Name@your-company.com">Name@your-company.com</a></div>
+                        </li>
+                    </ul>
+                    
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+

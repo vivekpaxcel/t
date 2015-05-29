@@ -1,0 +1,16 @@
+service-detail:
+ 
+- icon: dashboard 
+  title: First Service
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. 
+  url: #
+  
+- icon: code
+  title: Second Service
+  description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+  url: #
+    
+- icon: cogs
+  title: Third Service
+  description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: #

@@ -1,0 +1,431 @@
+body {
+  overflow-x: hidden; }
+
+a {
+  color: #e5493a; }
+
+a:focus {
+  outline: none; }
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s; }
+
+h1 {
+  color: #e5493a;
+  margin-bottom: 30px; }
+  h1 small {
+    font-size: 51%;
+    font-weight: 100; }
+
+h4 {
+  color: #e5493a; }
+
+.outter-section {
+  padding: 6em 0px; }
+
+.section-bg1 {
+  background: #efefef; }
+
+/*/////////////////////////////////////////////////////////
+				Banner  Style
+/////////////////////////////////////////////////////////*/
+.banner-container {
+  position: relative; }
+
+.banner-container .item {
+  background: #333;
+  text-align: center;
+  height: 500px !important; }
+
+.carousel {
+  margin-top: 20px; }
+
+.carousel-indicators {
+  bottom: -40px; }
+  .carousel-indicators li {
+    border-color: #e5493a;
+    height: 15px;
+    width: 15px; }
+  .carousel-indicators .active {
+    height: 17px;
+    width: 17px;
+    background: #e5493a; }
+  .carousel-indicators .carousel-control {
+    position: static;
+    width: 30px;
+    height: 29px;
+    padding: 10x;
+    text-align: center;
+    display: inline-block;
+    background: #000 !important; }
+    .carousel-indicators .carousel-control:hover {
+      background: #e5493a !important; }
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0); }
+
+.hero h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+.hero p {
+  font-size: 1.5em; }
+
+.carousel-fade .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 1s all ease-in-out .1s;
+  -moz-transition: 1s all ease-in-out .1s;
+  -ms-transition: 1s all ease-in-out .1s;
+  -o-transition: 1s all ease-in-out .1s;
+  transition: 1s all ease-in-out .1s; }
+
+.carousel-fade .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 1s all ease-in-out .1s;
+  -moz-transition: 1s all ease-in-out .1s;
+  -ms-transition: 1s all ease-in-out .1s;
+  -o-transition: 1s all ease-in-out .1s;
+  transition: 1s all ease-in-out .1s; }
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: .7;
+  top: 0px;
+  left: 0px; }
+
+/********************************/
+/*            Nav Style           */
+/********************************/
+.navbar-brand {
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  color: #e5493a !important;
+  font-size: 22px; }
+
+.navbar-default .navbar-nav li a {
+  color: #000; }
+  .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+    background: #e5493a;
+    color: #fff; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #e5493a;
+  color: #fff; }
+
+/*/////////////////////////////////////////////////////////
+				About  Style
+/////////////////////////////////////////////////////////*/
+.about-data {
+  margin: 10px 0px; }
+  .about-data i {
+    background: #E4E4E4;
+    font-size: 60px;
+    line-height: 2.5em;
+    width: 142px;
+    height: 142px;
+    border-radius: 100%; }
+  .about-data:hover i {
+    background: #e5493a;
+    color: #fff; }
+
+/*/////////////////////////////////////////////////////////
+				Service Style
+/////////////////////////////////////////////////////////*/
+.service-grid {
+  margin: 10px 0px; }
+  .service-grid .service-icon {
+    padding: 17px 10px; }
+    .service-grid .service-icon i {
+      border: 1px solid #e5493a;
+      border-radius: 50%;
+      font-size: 39px;
+      height: 102px;
+      padding-top: 31px;
+      text-align: center;
+      width: 102px;
+      color: #e5493a; }
+  .service-grid .readmore a {
+    color: #000000;
+    font-size: 8px; }
+    .service-grid .readmore a i {
+      padding: 3px; }
+  .service-grid:hover .service-icon i {
+    background: #e5493a;
+    color: #fff; }
+  .service-grid:hover .readmore a, .service-grid:hover h3 {
+    color: #e5493a; }
+
+/*/////////////////////////////////////////////////////////
+				Team Style
+/////////////////////////////////////////////////////////*/
+.team-member {
+  margin-bottom: 50px;
+  text-align: center; }
+  .team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff; }
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  .team-member p {
+    margin-top: 0; }
+
+ul.social-buttons {
+  margin-bottom: 0; }
+
+ul.social-buttons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: 0;
+  color: #fff;
+  background-color: #333;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  text-align: center; }
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #e5493a; }
+
+/*/////////////////////////////////////////////////////////
+				Contact Us  Style
+/////////////////////////////////////////////////////////*/
+#contact {
+  background-color: #222;
+  background-image: url(../images/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; }
+  #contact h1, #contact h3, #contact h1 small, #contact a {
+    color: #fff; }
+  #contact p {
+    color: #9a9a9a; }
+  #contact .contact-info {
+    padding: 0px; }
+    #contact .contact-info li {
+      margin-bottom: 25px;
+      list-style: none; }
+      #contact .contact-info li i {
+        font-size: 21px;
+        float: left;
+        margin-right: 15px; }
+  #contact .form-group .form-control {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    font-style: italic;
+    margin: 10px 0;
+    outline: medium none;
+    padding: 0.8em;
+    transition: border-color 0.3s ease 0s;
+    border-radius: 0px;
+    height: auto; }
+  #contact .btn-contact {
+    background: #e5493a;
+    border-radius: 0px; }
+    #contact .btn-contact:hover {
+      opacity: 0.6;
+      color: #fff; }
+
+footer {
+  background: #000;
+  padding: 1em 0 0.4em; }
+
+/*/////////////////////////////////////////////////////////
+				Case Study  Style
+/////////////////////////////////////////////////////////*/
+.case-grid {
+  margin-bottom: 10px; }
+  .case-grid .case-desc {
+    border: 5px solid rgba(189, 0, 3, 0.7);
+    position: relative;
+    min-height: 300px; }
+    .case-grid .case-desc img {
+      min-height: 300px; }
+    .case-grid .case-desc .detail {
+      display: none;
+      background: rgba(0, 0, 0, 0.8);
+      height: 100%;
+      line-height: 2em;
+      padding: 15px;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      color: #fff;
+      font-size: 18px;
+      vertical-align: middle;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s; }
+    .case-grid .case-desc:hover .detail {
+      display: block;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s; }
+  .case-grid h4 {
+    background: rgba(189, 0, 3, 0.7);
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center; }
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity; }
+.carousel-fade .carousel-inner .active {
+  opacity: 1; }
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1; }
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.carousel-control, .carousel-control:hover {
+  background: transparent !important; }
+
+/********************************/
+/*        Clients Style       */
+/********************************/
+.clients img {
+  margin: 50px auto; }
+
+.clients-inner .active.left {
+  left: -25%; }
+
+.clients-inner .next {
+  left: 25%; }
+
+.clients-inner .prev {
+  left: -25%; }
+
+#test .carousel-control {
+  width: 4%; }
+
+#test .carousel-control.left, #test .carousel-control.right {
+  margin-left: 15px;
+  background-image: none; }
+
+/********************************/
+/*        Case Study  Style       */
+/********************************/
+.case-inner .active.left {
+  left: -33%; }
+
+.case-inner .next {
+  left: 33%; }
+
+.case-inner .prev {
+  left: -33%; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+.item:not(.prev) {
+  visibility: visible; }
+
+.item.right:not(.prev) {
+  visibility: hidden; }
+
+.rightest {
+  visibility: visible; }
+
+/*********************************************************************************/
+/* Back To Top                                                                */
+/*********************************************************************************/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.8);
+  line-height: 1.9em;
+  font-size: 22px;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  text-align: center; }
+  .cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+    opacity: 1; }
+  .cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 0.5; }
+  .cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5; }
+  .cd-top .no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+    color: #fff; }
+
+/******************************************************************************************
+					MEDIA QUERY LAYOUT STRUCTURE
+				
+@media (max-width: 767px) {XS DEVICE- EXTRA small:  for Mobile and Tablet}				
+@media (min-width: 768px) and (max-width: 991px) {SMALL DEVICE- iPad Protlat and old Desktop view}
+@media (min-width: 992px) and (max-width: 1199px) {MEDIUM DEVICE- iPad Landscap and large Desktop view}
+@media (min-width: 1200px) {LARGE DEVICE- Projector EXTRA large Desktop view}
+				
+/******************************************************************************************/
+@media (max-width: 767px) {
+  .case-inner .active.left {
+    left: -100%; }
+
+  .case-inner .next {
+    left: 100%; }
+
+  .case-inner .prev {
+    left: -100%; } }

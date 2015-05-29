@@ -1,0 +1,16 @@
+banner-slider:
+
+- path: bg1.jpg
+  title: First slide label
+  caption: Lorem ipsum dolor sit amet, consectetur adipiscing eli
+  alt: Cypripedium Calceolum
+  
+- path: bg2.jpg
+  title: Second slide label
+  caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  alt: Cypripedium Calceolum
+  
+- path: bg3.jpg
+  title: Third slide label
+  caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  alt: Cypripedium Calceolum

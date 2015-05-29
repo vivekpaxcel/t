@@ -1,0 +1,15 @@
+- title: First Case Study
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. 
+  url: #
+  img-path: casestudy.jpg
+  
+- title: Second Case Study
+  description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+  url: #
+  img-path: casestudy2.jpg
+    
+- title: Third Case Study
+  description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: #
+  img-path: casestudy3.jpg
+ 
