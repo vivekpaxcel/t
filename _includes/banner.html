@@ -5,7 +5,7 @@
     <div class="carousel-inner banner-container"> 
     	{% for banner in site.data.banner.banner-slider %}
       		<div class="item {% if forloop.index  == 1 %} active {% endif %} "> 
-      			<img src="{{site.baseurl}}/images/{{banner.path}}" alt="{{banner.alt }}" class="img-responsive">
+      			<img src="images/{{banner.path}}" alt="{{banner.alt }}" class="img-responsive">
                 	
                <div class="hero">
                 <hgroup>
